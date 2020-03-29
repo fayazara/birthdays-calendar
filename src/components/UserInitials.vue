@@ -1,5 +1,5 @@
 <template>
-  <div class="h-16 flex justify-center items-center" :class="`bg-${color}-700`">
+  <div class="h-16 flex justify-center items-center" :class="`bg-${color}-600`">
     <span class="text-white">{{ getInitials(bday.name) }}</span>
   </div>
 </template>
