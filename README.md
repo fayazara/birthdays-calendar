@@ -1,5 +1,13 @@
+
 # birthdays
 
+
+## Project details
+Project is built with 
+[vue.js](https://vuejs.org/) - Javascript framework
+[tailwindcss](https://tailwindcss.com/) - CSS Utility framework
+[axios](https://github.com/axios/axios) - for http requests
+[Random User](https://randomuser.me/) - For fetching fake user details 
 ## Project setup
 ```
 npm install
