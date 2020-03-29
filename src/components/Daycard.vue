@@ -1,5 +1,5 @@
 <template>
-  <div class=" rounded shadow border">
+  <div class="bg-gray-200 rounded shadow border">
     <div class="p-4 bg-indigo-500 rounded-t">
       <p class="text-white">{{ data.day }}</p>
     </div>
