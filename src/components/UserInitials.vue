@@ -1,5 +1,8 @@
 <template>
-  <div class="h-16 flex justify-center items-center" :class="`bg-${color}-600`">
+  <div
+    class="increament-z h-16 flex justify-center items-center transform hover:scale-105 transition ease-out duration-500"
+    :class="`bg-${color}-600`"
+  >
     <span class="text-white">{{ getInitials(bday.name) }}</span>
   </div>
 </template>
@@ -38,4 +41,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.increament-z:hover {
+  z-index: 99 !important;
+}
+</style>
